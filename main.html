@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="shortcut icon" href="img/logo.png">
+
+<title>
+    天降工作室主页
+</title>
+
+</head>
+
+<body id="awa">
+<div class="container">
+
+    <p id="p1">
+        <span class="Flex-color-Special Flex-fadeIn">
+        
+            ようこそ AngelStudio！ 
+
+            </span>
+    </p>
+
+
+    <div class="center">
+
+   <a href="introduction.html" id="a1">
+        <span class="Flex-color-Special Flex-fadeIn1">
+            天降工作室基本信息
+            </span>
+   </a>
+
+    </div>
+
+    <div class="center">
+
+        <a href="https://jq.qq.com/?_wv=1027&k=JLWVR3sJ" id="a1">
+            <span class="Flex-color-Special Flex-fadeIn1">
+                加入天降工作室旗下的minecraft bedrock edition server
+                </span>
+     </a>
+     
+         </div>
+         
+         <div class="center">
+            
+            <a href="https://jq.qq.com/?_wv=1027&k=Ek6yZT7O" id="a1">
+                <span class="Flex-color-Special Flex-fadeIn1">
+                    加入天降工作室问题反馈群
+                    </span>
+            </a>
+         
+             </div>
+    
+         <div class="center">
+
+            <a href="money.html" id="a1">
+                <span class="Flex-color-Special Flex-fadeIn1">
+                    <b>赏口饭吃（awa）
+                    </span>
+         </a>
+</div>
+<img herf="img/logo.png">
+</div>
+    <script>
+
+        var d = new Date();
+
+        if(d.getHours() >> 6 && d.getHours() <= 14){
+            //白天
+            document.getElementById("awa").style.backgroundImage="url('img/1.png')" 
+        }
+
+        if(d.getHours() >>14  && d.getHours() <= 22){
+            //下午
+            document.getElementById('awa').style.backgroundImage = "url('img/3.png')" 
+        }
+        if(d.getHours() >> 22 || d.getHours() <= 6){
+            //夜晚
+            document.getElementById('awa').style.backgroundImage = "url('img/2.png')" 
+        }
+
+    </script>
+        
+</body>
+
+</html>
